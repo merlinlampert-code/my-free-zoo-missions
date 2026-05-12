@@ -1,0 +1,35 @@
+[
+    {
+        "level": 1,
+        "name": "Rette den Zoo!",
+        "tasks": [
+            { "text": "Besucher gleichzeitig in den Zoo locken", "amount": "3/3" }
+        ],
+        "rewards": {
+            "xp": 1000,
+            "zd": 3000
+        },
+        "cheapest_solution": {
+            "shops": { "item": "-", "price": 0, "count": 0 },
+            "enclosures": { "item": "-", "price": 0, "count": 0 },
+            "total_cost": 0
+        }
+    },
+    {
+        "level": 2,
+        "name": "Mach den Zoo schöner und größer!",
+        "tasks": [
+            { "text": "Geschäfte bauen", "amount": "3/3" },
+            { "text": "Gehege bauen", "amount": "2/2" }
+        ],
+        "rewards": {
+            "xp": 1500,
+            "zd": 3500
+        },
+        "cheapest_solution": {
+            "shops": { "item": "Getränkestand", "price": 400, "count": 3 },
+            "enclosures": { "item": "Kleines Gehege", "price": 1000, "count": 2 },
+            "total_cost": 3200
+        }
+    }
+]
