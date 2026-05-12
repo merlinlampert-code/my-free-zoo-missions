@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f1e3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #3b7d3b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#missions-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.mission-card {
+    background: white;
+    border-left: 6px solid #3b7d3b;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.mission-card h2 {
+    margin-top: 0;
+}
+
+.task-list, .reward-list, .cost-list {
+    margin: 5px 0 10px 0;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #ddd;
+    margin-top: 30px;
+}
